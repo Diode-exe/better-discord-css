@@ -45,6 +45,7 @@ Block the Send Nitro Gift button in the message box
 }
 ```
 Block the Close DM button on DMs (you can still right click and Close DM)
+
 Good for preventing accidental DM closures!
 
 ```
