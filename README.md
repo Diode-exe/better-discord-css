@@ -1,6 +1,8 @@
 # better-discord-css
 Block Discord Nitro upsell below the Friends tab!
 
+## Check the discord-css.css file for all the mods
+
 ```
 a[href="/store"] {
     display: none !important;
