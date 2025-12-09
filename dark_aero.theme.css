@@ -175,7 +175,7 @@
   background: var(--main-gradients) !important;
 }
 
-/* Only target containers that actually have an SVG child */
+/* Only target containers that actually have an SVG child
 .childWrapper__6e9f8:has(svg) {
     background-image: url("https://xatimg.com/image/r6pt8qxULrdJ.png");
     background-size: contain;
@@ -184,12 +184,12 @@
     width: 30px;
     height: 30px;
     display: inline-block;
-}
+} */
 
-/* Still hide the SVGs */
+/* Still hide the SVGs
 .childWrapper__6e9f8 svg {
     display: none !important;
-}
+} */
 
 .scroller_c1e9c4.thin_d125d2.scrollerBase_d125d2 {
   background: var(--main-gradients) !important;
