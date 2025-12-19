@@ -1,41 +1,26 @@
-.chatTypingGradientNotAtBottom__36d07 .chatGradientBase__36d07 {
-    display: none !important;
-}
-
+/* this blocks the shop button */
 a[href="/store"] {
     display: none !important;
 }
 
-.scroller__7d20c {
-    display: none !important;
-}
-
-.nowPlayingColumn__133bf {
-    display: none !important;
-}
-
-.headerText__99e7c {
+/* this changes the Direct Messages text to say "chatz" */
+._99e7cad8d4c55236-headerText {
     font-size: 0 !important;
 }
-
-.headerText__99e7c::before {
+._99e7cad8d4c55236-headerText::before {
     content: "chatz";
     font-size: 16px !important;
     color: inherit !important;
     display: inline-block !important;
 }
 
+/* this blocks the button to send your friends Nitro */
 [aria-label="Send a gift"] {
     display: none !important;
 }
 
-.closeButton__972a0 {
-    display: none !important;
-}
-
-.bar__7aaec {
-    display: none !important;
-} 
-.voiceBar__7aaec {
+/* this blocks the close DM button */
+._972a0d22c8afa7f0-closeButton,
+._972a0d22c8afa7f0-reducedClickTarget {
     display: none !important;
 }
