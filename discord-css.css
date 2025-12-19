@@ -1,5 +1,10 @@
-/* this blocks the shop button */
+/* this blocks the Nitro button in the DMs screen */
 a[href="/store"] {
+    display: none !important;
+}
+
+/* this blocks the Shop button in the DMs screen */
+a[href="/shop"] {
     display: none !important;
 }
 
