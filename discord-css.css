@@ -29,3 +29,8 @@ a[href="/shop"] {
 ._972a0d22c8afa7f0-reducedClickTarget {
     display: none !important;
 }
+
+/* this removes the bar suggesting thread creation */
+._841c8f861f7b2704-threadSuggestionBar {
+    display: none !important;
+}
